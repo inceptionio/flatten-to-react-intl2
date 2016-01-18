@@ -67,12 +67,14 @@ function flatten(args) {
 
       var newObj = eachRecursive(fileObj);
 
+      console.log(newObj);
+
       var newFilename = path.basename(filename, path.extname(filename))
                           + "-default-flat.json";
 
       var translation = eachTranslation(fileObj);
       
-      console.log(translation);
+      // console.log(translation);
 
       fs.writeFile(newFilename, JSON.stringify(newObj), function(err) {
         if (err) {
