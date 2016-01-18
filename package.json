@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "Helps to transform nested translation into flat translation compatible with react-intl2",
   "main": "flatten-to-react-intl2.js",
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^2.9"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
