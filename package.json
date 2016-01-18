@@ -1,12 +1,17 @@
 {
   "name": "flatten-to-react-intl2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helps to transform nested translation into flat translation compatible with react-intl2",
-  "main": "index.js",
-  "dependencies": {},
+  "main": "flatten-to-react-intl2.js",
+  "dependencies": {
+    "commander": "^2.9"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "flatten-to-react-intl2": "./flatten-to-react-intl2.js"
   },
   "keywords": [
     "react-intl2",
